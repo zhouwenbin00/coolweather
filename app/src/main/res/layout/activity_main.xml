@@ -1,0 +1,77 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment_1"
+        android:name="com.coolweather.app.activity.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignParentTop="true" />
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.coolweather.app.activity.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignParentTop="true" />
+    <fragment
+        android:id="@+id/fragment_3"
+        android:name="com.coolweather.app.activity.Fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@+id/radiogroup"
+        android:layout_alignParentTop="true" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:text="female" >
+
+        <RadioButton
+            android:id="@+id/btn_0"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:background="@drawable/radio_1"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="17.0sp" />
+
+        <RadioButton
+            android:id="@+id/btn_1"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_2"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="17.0sp" />
+
+        <RadioButton
+            android:id="@+id/btn_2"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_3"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="17.0sp" />
+    </RadioGroup>
+
+</RelativeLayout>

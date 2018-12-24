@@ -121,7 +121,7 @@ public class LoginActivity extends Activity {                 //登录界面活�
                 }
                 editor.commit();
 
-                Intent intent = new Intent(LoginActivity.this,UserActivity.class) ;    //切换Login Activity至User Activity
+                Intent intent = new Intent(LoginActivity.this,ChooseAreaActivity.class) ;    //切换Login Activity至Main Activity
                 startActivity(intent);
                 finish();
                 Toast.makeText(this, getString(R.string.login_success),Toast.LENGTH_SHORT).show();//登录成功提示
