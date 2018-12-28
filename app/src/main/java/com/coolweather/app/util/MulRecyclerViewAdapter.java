@@ -30,9 +30,6 @@ import static android.R.attr.type;
 import static android.R.id.list;
 import static android.media.CamcorderProfile.get;
 
-/**
- * Created by chenlei on 2017/10/11.
- */
 
 public class MulRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final int NEW_SIMPLE_TYPE = 0;//单图文模式

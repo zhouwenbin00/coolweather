@@ -11,10 +11,6 @@ import java.util.List;
 
 import static android.R.attr.type;
 
-/**
- * Created by chenlei on 2017/10/11.
- */
-
 public class NewsPhotoBean {
 
     public List<String> list;//封面图片的集合

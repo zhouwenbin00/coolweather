@@ -23,7 +23,6 @@
          </intent-filter>
          </activity>
         <activity android:name=".activity.MainActivity"/>
-        <activity android:name=".activity.WeatherActivity" />
         <activity android:name=".activity.RegisterActivity" />
         <activity android:name=".activity.ResetpwdActivity" />
         <service android:name=".service.AutoUpdateService" />
